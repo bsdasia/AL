@@ -7,7 +7,7 @@ GhostBSD 始于 2010 年。
 
 GhostBSD 官网为 [https://www.ghostbsd.org](https://www.ghostbsd.org)。其口号为“A simple, elegant desktop BSD Operating System”，意为“简洁而优雅的 BSD 桌面操作系统”。
 
-GhostBSD 曾基于 TrueOS（另一款消逝的桌面发行版），也曾使用 Gnome 作为桌面。GhostBSD 这一名称与早期 Windows 平台上常用的 Ghost 软件并无任何关联，其含义为“(G)nome (host)ed by Free(BSD)”（由 FreeBSD 驱动的 GNOME 桌面），而当前所使用的 MATE 桌面环境亦源自 GNOME 项目。GhostBSD 默认配置了 Linux 兼容层，但其使用方式与常规目录结构不同，且无法通过 chroot 直接进入，对 deb、rpm 文件的处理也无明显反馈。GhostBSD 使用 FreeBSD 的 pkg（默认软件源为 GhostBSD 镜像站）和 Ports，同时也提供了官方的图形化软件管理工具及自有的二进制软件包。
+GhostBSD 曾基于 TrueOS（另一款消逝的桌面发行版），也曾使用 GNOME 作为桌面。GhostBSD 这一名称与早期 Windows 平台上常用的 Ghost 软件并无任何关联，其含义为“(G)nome (host)ed by Free(BSD)”（由 FreeBSD 驱动的 GNOME 桌面），而当前所使用的 MATE 桌面环境亦源自 GNOME 项目。GhostBSD 默认配置了 Linux 兼容层，但其使用方式与常规目录结构不同，且无法通过 chroot 直接进入，对 deb、rpm 文件的处理也无明显反馈。GhostBSD 使用 FreeBSD 的 pkg（默认软件源为 GhostBSD 镜像站）和 Ports，同时也提供了官方的图形化软件管理工具及自有的二进制软件包。
 
 GhostBSD 的下载地址为 <https://www.ghostbsd.org/download>。GhostBSD 官方仅提供基于 MATE 桌面环境的安装镜像，社区则提供了基于 Xfce 的版本。GhostBSD 是一款滚动发行版，但更新节奏相对缓慢，基于 FreeBSD 最新的 STABLE 分支。常见问题文档在 [FAQ](https://ghostbsd-documentation-portal.readthedocs.io/en/latest/user/FAQ.html)。可以看到系统默认未安装编译工具，需要通过命令 `sudo pkg install -g 'GhostBSD*-dev'` 进行安装。
 
