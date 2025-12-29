@@ -73,7 +73,7 @@ helloSystem 始于 2021 年。helloSystem 在设计理念上类似于 Linux 生�
 
 helloSystem 项目的开发进度在一段时间内较为停滞。该项目团队甚至并未注册 helloSystem.org 域名。
 
-helloSystem 的官网为 <https://hellosystem.github.io/docs>，同时也是他们的文档网站。下载地址位于 GitHub 上的 [Github](https://github.com/helloSystem/ISO/releases)。
+helloSystem 的官网为 <https://hellosystem.github.io/docs>，同时也是他们的文档网站。下载地址位于 [GitHub Releases 页面](https://github.com/helloSystem/ISO/releases)。
 
 helloSystem 的设计原则主要面向 macOS 用户，可概括为“桌面风格 Mac 化的 FreeBSD”。设计哲学是“少而精”。
 
